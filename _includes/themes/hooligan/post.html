@@ -37,6 +37,14 @@
       <div class="date"><span>{{ page.updated | date_to_long_string }}</span></div>
       {% endif %}
     </section>
+    {% if page.author %}
+      <section>
+        <h4>Author</h4>
+        <span class="category">
+          {{ page.author }}
+        </span>
+      </section>
+    {% endif %}
     {% if page.categories %}
       <section>
         <h4>{% if page.categories.size == 1 %}Category{% else %}Categories{% endif %}</h4>
