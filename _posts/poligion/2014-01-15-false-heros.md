@@ -11,7 +11,7 @@ theme:
 ---
 {% include JB/setup %}
 
-It is forbidden to kill; therefore all murderers are punished unless
+"It is forbidden to kill; therefore all murderers are punished unless
 they kill in large numbers and to the sound of trumpets.” ~ Voltaire
 
 
@@ -53,7 +53,7 @@ is admitted not only to a temple, but even to heaven.
 
 Just as you can’t have a war on drugs without DEA agents, just as you
 can’t have invasive airline security procedures without TSA agents,
-and just as you can have a police state without police, so you can’t
+and just as you can't have a police state without police, so you can’t
 have a war without soldiers.
 
 

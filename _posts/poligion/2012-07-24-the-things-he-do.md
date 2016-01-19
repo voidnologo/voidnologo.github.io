@@ -63,13 +63,13 @@ Any ideas?
 
 
 
-\-------------------
+-------------------
 
 Quote from Hugh Nibley: _Temple and Cosmos_ pg 323-4
 
 
 
-You'll never prove the gospel.  You'll never prove the Book of Mormon
+>You'll never prove the gospel.  You'll never prove the Book of Mormon
 or the Bible or anything else.  Remember, people have been working on
 the Bible now for hundreds of years, and do people believe it?  When
 is a thing proven in science or anywhere else?  When you have had

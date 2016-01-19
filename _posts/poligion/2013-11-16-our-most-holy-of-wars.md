@@ -53,7 +53,7 @@ all these ideas of “limited government” and “rights of the people.”
 Crush the South, by abolishing slavery, and we shall have all we
 want—a consolidated government, an indefinite party ascendancy, and
 ability to lay on such tariffs and taxes as we please, and aggrandize
-ourselves and our section!
+ourselves and our section![^1]
 
 
 
@@ -66,8 +66,6 @@ slowly dying ever since.
 
 
 
-
-Robert L. Dabney, “Memoir of a Narrative Received of Colonel John B.
-Baldwin of Staunton, Touching the Origin of the War,” Discussions
-(Harrisonburg, Va.: Sprinkle Publications, 1994), pp. 87–110.
+----
+[^1]: Robert L. Dabney, “Memoir of a Narrative Received of Colonel John B. Baldwin of Staunton, Touching the Origin of the War,” Discussions (Harrisonburg, Va.: Sprinkle Publications, 1994), pp. 87–110.
 
