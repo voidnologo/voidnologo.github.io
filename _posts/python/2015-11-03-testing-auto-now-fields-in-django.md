@@ -4,8 +4,6 @@ title: Testing `auto_now` fields in Django models
 description: ""
 category: python
 tags: [python, django, testing]
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 

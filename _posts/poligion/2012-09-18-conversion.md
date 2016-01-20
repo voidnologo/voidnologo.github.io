@@ -3,12 +3,9 @@ layout: post
 title: Conversion
 date: '2012-09-18T06:17:00.001-05:00'
 author: Mom
-tags: []
 description: ""
 category: poligion
 tags: []
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 

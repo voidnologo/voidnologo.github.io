@@ -3,12 +3,9 @@ layout: post
 title: Righteousness brings peace and security
 date: '2012-09-17T22:10:00.004-05:00'
 author: Margomas
-tags: []
 description: ""
 category: poligion
 tags: []
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 
