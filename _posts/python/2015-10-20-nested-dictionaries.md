@@ -29,18 +29,19 @@ This results in
 
 ###To display in django templates
 
-Create your classes
+So if I had the following objects, and wanted to organzie them by color:
 {% highlight python %}
 Cat(name='Kuro', color='black')
 Cat(name='Nekko', color='black')
 {% endhighlight %}
 
-The dictionary that will be generated and used in the template will look like:
+The dictionary that will be generated (key of `cat` and attribute `color`)
+to be used in the template will look like:
 {% highlight python %}
 {'cat': {'black': [<Cat>'Kuro', <Cat>'Nekko']}}`
 {% endhighlight %}
 
-And your template:
+And accessing each level of the structure in our template:
 
 {% highlight django %}
 {% raw %}
