@@ -12,17 +12,17 @@ In the python code, the data structure was built like:
 
 {% highlight python %}
 @property
-def nested(self):
+def nested(self, a_list_of_objects):
     from collections import defaultdict
     data = defaultdict(lambda: defaultdict(list))
-    for x in self.a_list_of_objects:
+    for x in a_list_of_objects:
          data['key'][x.an_attribute].append(x)
     return data
 {% endhighlight %}
 
 This results in
 {% highlight python %}
-{'key': {an_attribute: [item1, item2]}}
+{'key': {'an_attribute': [item1, item2]}}
 {% endhighlight %}
 
 ###To display in django templates
