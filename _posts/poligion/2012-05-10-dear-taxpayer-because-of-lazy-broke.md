@@ -6,8 +6,6 @@ tags:
 description: ""
 category: poligion
 tags: []
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 

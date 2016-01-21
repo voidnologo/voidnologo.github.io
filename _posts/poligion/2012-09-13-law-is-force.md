@@ -3,12 +3,9 @@ layout: post
 title: Law is force
 date: '2012-09-13T15:05:00.000-05:00'
 author: Margomas
-tags: []
 description: ""
 category: poligion
 tags: []
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 
