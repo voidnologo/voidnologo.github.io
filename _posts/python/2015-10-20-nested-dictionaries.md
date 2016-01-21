@@ -4,8 +4,6 @@ title: Nested Dictionaries
 description: ""
 category: python
 tags: [python, django]
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 

@@ -4,8 +4,6 @@ title: Testing `print()` statements in Python
 description: ""
 category: python
 tags: [python, testing, games]
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 

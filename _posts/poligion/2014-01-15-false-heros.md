@@ -6,13 +6,11 @@ author: Salt Prime
 description: ""
 category: poligion
 tags: []
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 
-"It is forbidden to kill; therefore all murderers are punished unless
-they kill in large numbers and to the sound of trumpets.” ~ Voltaire
+"It is forbidden to kill; therefore all murderers are punished unless they kill in large numbers and to the sound of trumpets.”
+<small>~ Voltaire</small>
 
 
 

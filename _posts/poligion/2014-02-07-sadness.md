@@ -6,8 +6,6 @@ author: Salt Prime
 description: ""
 category: poligion
 tags: []
-theme:
-  name: hooligan
 ---
 {% include JB/setup %}
 
