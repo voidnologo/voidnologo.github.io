@@ -473,3 +473,14 @@ div.sidebar section img.icon {
   margin-bottom: 0;
 }
 
+.thumb {
+    width: 200px;
+    height: 180px;
+    margin: 10px 50px 10px 50px;
+}
+
+/* resize images */
+.thumb img {
+    width: auto;
+    height: 100%;
+}
