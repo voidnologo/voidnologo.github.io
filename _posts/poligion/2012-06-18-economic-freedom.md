@@ -16,7 +16,7 @@ The Lou Church Memorial Lecture in Religion and Economics. Recorded 12
 March 2009 at the Ludwig von Mises Institute in Auburn, Alabama for
 the Austrian Scholar's Conference.
 
-Rabbi Daniel Lapin: [What is Morally Right about Economic
-Freedom](http://mises.org/media/4316/What-is-Morally-Right-About-
-Economic-Freedom)
+Rabbi Daniel Lapin: [What is Morally Right about Economic Freedom](https://mises.org/library/what-morally-right-about-economic-freedom)
 
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/lVS0vIkTrsw" frameborder="0" allowfullscreen></iframe>
