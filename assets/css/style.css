@@ -484,3 +484,10 @@ div.sidebar section img.icon {
     width: auto;
     height: 100%;
 }
+
+.image-frame img {
+    padding: 5px 5px 5px 5px;
+    border-style: double;
+    border-width: 5px;
+    border-color: #0B2F3A;
+}
