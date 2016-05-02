@@ -56,7 +56,7 @@ e.g.:
 
 {% highlight python %}
     >>> print(ObjectCreator) # you can print a class because it is an object
-    <class '__main__.ObjectCreator'>
+    <class __main__.ObjectCreator>
     >>> def echo(o):
     ...       print(o)
     ...
