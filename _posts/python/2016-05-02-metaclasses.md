@@ -61,7 +61,7 @@ e.g.:
     ...       print(o)
     ...
     >>> echo(ObjectCreator) # you can pass a class as a parameter
-    <class '__main__.ObjectCreator'>
+    <class __main__.ObjectCreator>
     >>> print(hasattr(ObjectCreator, 'new_attribute'))
     False
     >>> ObjectCreator.new_attribute = 'foo' # you can add attributes to a class
@@ -97,7 +97,7 @@ First, you can create a class in a function using `class`:
     ...
     >>> MyClass = choose_class('foo')
     >>> print(MyClass) # the function returns a class, not an instance
-    <class '__main__.Foo'>
+    <class __main__.Foo>
     >>> print(MyClass()) # you can create an object from this class
     <__main__.Foo object at 0x89c6d4c>
 {% endhighlight %}
@@ -121,7 +121,7 @@ type an object is:
     >>> print(type(ObjectCreator))
     <type 'type'>
     >>> print(type(ObjectCreator()))
-    <class '__main__.ObjectCreator'>
+    <class __main__.ObjectCreator>
 {% endhighlight %}
 
 Well, [`type`][1] has a completely different ability, it can also create classes on the fly. `type` can take the description of a class as parameters,
@@ -148,7 +148,7 @@ can be created manually this way:
 {% highlight python %}
     >>> MyShinyClass = type('MyShinyClass', (), {}) # returns a class object
     >>> print(MyShinyClass)
-    <class '__main__.MyShinyClass'>
+    <class __main__.MyShinyClass>
     >>> print(MyShinyClass()) # create an instance with the class
     <__main__.MyShinyClass object at 0x8997cec>
 {% endhighlight %}
@@ -174,7 +174,7 @@ And used as a normal class:
 
 {% highlight python %}
     >>> print(Foo)
-    <class '__main__.Foo'>
+    <class __main__.Foo>
     >>> print(Foo.bar)
     True
     >>> f = Foo()
@@ -196,7 +196,7 @@ would be:
 {% highlight python %}
     >>> FooChild = type('FooChild', (Foo,), {})
     >>> print(FooChild)
-    <class '__main__.FooChild'>
+    <class __main__.FooChild>
     >>> print(FooChild.bar) # bar is inherited from Foo
     True
 {% endhighlight %}
@@ -284,7 +284,7 @@ been created from a class:
     >>> class Bar(object): pass
     >>> b = Bar()
     >>> b.__class__
-    <class '__main__.Bar'>
+    <class __main__.Bar>
 {% endhighlight %}
 
 Now, what is the `__class__` of any `__class__` ?
