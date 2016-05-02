@@ -8,9 +8,9 @@ tags: [python]
 ---
 {% include JB/setup %}
 
-Note: this is just a copy of (this)[http://stackoverflow.com/a/6581949] StackOverflow answer.
+Note: this is just a copy of [this](http://stackoverflow.com/a/6581949) StackOverflow answer.
 
-##Classes as objects
+## Classes as objects
 --------------------
 
 Before understanding metaclasses, you need to master classes in Python. And Python has a very peculiar idea of what classes are, borrowed from the Smalltalk language.
@@ -77,7 +77,7 @@ e.g.:
 {% endhighlight %}
 
 
-##Creating classes dynamically
+## Creating classes dynamically
 ------------------------------
 
 Since classes are objects, you can create them on the fly, like any object.
@@ -233,7 +233,7 @@ You see where we are going: in Python, classes are objects, and you can create a
 
 This is what Python does when you use the keyword `class`, and it does so by using a metaclass.
 
-##What are metaclasses (finally)
+## What are metaclasses (finally)
 --------------------------------
 
 Metaclasses are the 'stuff' that creates classes.
@@ -307,7 +307,7 @@ You can call it a 'class factory' if you wish.
 `type` is the built-in metaclass Python uses, but of course, you can create your
 own metaclass.
 
-##The [`__metaclass__`][2] attribute
+## The [`__metaclass__`][2] attribute
 ------------------------------------
 
 You can add a `__metaclass__` attribute when you write a class:
@@ -356,7 +356,7 @@ The answer is: something that can create a class.
 
 And what can create a class? `type`, or anything that subclasses or uses it.
 
-##Custom metaclasses
+## Custom metaclasses
 --------------------
 
 The main purpose of a metaclass is to change the class automatically,
@@ -520,7 +520,7 @@ complicated stuff. But by themselves, they are simple:
 - return the modified class
 
 
-##Why would you use metaclasses classes instead of functions?
+## Why would you use metaclasses classes instead of functions?
 ------------------------------------------------------------
 
 Since `__metaclass__` can accept any callable, why would you use a class
@@ -541,7 +541,7 @@ There are several reasons to do so:
 - These are called metaclasses, damn it! It must mean something!
 
 
-##Why would you use metaclasses?
+## Why would you use metaclasses?
 --------------------------------
 
 Now the big question. Why would you use some obscure error prone feature?
@@ -585,7 +585,7 @@ Django makes something complex look simple by exposing a simple API
 and using metaclasses, recreating code from this API to do the real job
 behind the scenes.
 
-##The last word
+## The last word
 ---------------
 
 First, you know that classes are objects that can create instances.
