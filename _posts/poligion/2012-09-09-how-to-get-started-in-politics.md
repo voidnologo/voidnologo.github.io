@@ -25,8 +25,7 @@ me. "Can you think to sit upon your thrones in thoughtless stupor,
 while your enemies are spreading the work of death around you? ....And
 now my beloved brethren--for ye ought to be beloved; yea, and ye ought
 to have stirred yourselves more diligently for the welfare and the
-freedom of this people..." (Alma 60:7,10)
-
+freedom of this people..." [(Alma 60:7,10)](https://www.lds.org/scriptures/bofm/alma/60.7,10)
 
 The first thing to do in my mind is to study principles of good and
 righteous government so we can develop skills to discern truth and
@@ -35,7 +34,7 @@ national issues often resides in the shallow soil of policies and
 procedures and rarely seems to get into the bedrock of questions
 regarding what principles should guide us. I have found the John Birch
 Society to be a good resource in studying principles of government.
-JBS.org has a lot of resources and there are probably some JBS
+[JBS.org](http://JBS.org) has a lot of resources and there are probably some JBS
 chapters in Oklahoma City as well as all over the nation. I got my
 political start and love of libertarianism through connections to the
 JBS as a youth. On the level of studying and learning principles by
@@ -47,8 +46,6 @@ think outside of the box. The same goes for political parties, which
 tend to constrain debate to false options. We need to look beyond
 political parties for guidance and knowledge.
 
-
-
 The second thing to do is to cry, because we have departed so far as a
 nation from the great gift of liberty God and our forebearers gave us.
 But when you're done crying, then all we can do is get to work and do
@@ -56,13 +53,12 @@ the best you know how, and let God take care of the rest. Like
 President Monson says, "Do your duty, that is best, leave unto the
 Lord the rest".
 
-
-
 We have found a lot of meaning in campaigning for Ron Paul, because we
 feel he truly stands for liberty and our Constitution. This year we
 have also spent a great deal of time campaigning for a local candidate
 for state representative, because he is an honest, upright, and God-
-fearing man. D&C 98:10 says, "Wherefore, honest men and wise men
+fearing man. [D&C 98:10](https://www.lds.org/scriptures/dc-testament/dc/98.10?lang=eng)
+says, "Wherefore, honest men and wise men
 should be sought for diligently, and good men and wise men ye should
 observe to uphold; otherwise whatsoever is less than these cometh of
 evil." We have recognized that by the time a general election is upon
@@ -82,8 +78,6 @@ careening into an abyss. We actually see little difference in the
 FRUITS of either political party on the national level in spite of the
 incessant rhetoric regarding differences in philosophies.
 
-
-
 Ultimately we believe and know that God controls the destiny of
 nations. Ben Franklin said that a sparrow cannot fall to the ground
 without God's notice, and surely an empire cannot rise without His
@@ -96,12 +90,10 @@ responsibilities for the natural consequences in our own lives is part
 of this, rather than trying to cast the burden on society, i.e. the
 government.
 
-
-
 My  personal conviction is that the Lord will cause a separation among
 the people of this nation and of the world. An example (there are
-more) of a scripture prophesying of this event is 2 Nephi 30:10, which
-states, "For the time speedily cometh that the Lord God shall cause a
+more) of a scripture prophesying of this event is [2 Nephi 30:10](https://www.lds.org/scriptures/bofm/2-ne/30.10),
+which states, "For the time speedily cometh that the Lord God shall cause a
 great division among the people, and the wicked will he destroy; and
 he will spare his people, yea, even if it so be that he must destroy
 the wicked by fire". I don't believe that this refers to a division
@@ -130,12 +122,6 @@ will allow liberty to prevail, but rather The grace and goodness and
 power of God magnifying the efforts of the those who fight for
 liberty.
 
-
-
-
-
-
-
 I believe in optimism. There have always been trying times on the
 earth. We cannot get discouraged about what we cannot control. We can
 only do our best to be our best and to influence others to be their
@@ -145,13 +131,7 @@ God's plan can only destroy themselves. Cecil Demille, producer of the
 movie, "The Ten Commandments", stated in a commencement address at BYU
 in 1957:
 
-
-
-
-
-
-
-"Some, who do not know either the Bible or human nature, may see in
+> "Some, who do not know either the Bible or human nature, may see in
 the orgy of the Golden Calf only a riot of Hollywood's imaginations--
 but those who have eyes to see will see in it the awful lesson of how
 quickly a nation or a man can fall, without God's law. If man will not

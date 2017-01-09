@@ -12,8 +12,6 @@ tags: []
 [In reflecting on some recent family experiences, here are some
 perspectives and insights.]
 
-
-
 First of all Al Qaeda and Muslims are not the same thing. Members of
 Al Qaeda claim to be Muslims but not all and actually not many Muslims
 are members of Al Qaeda. Those who truly follow the Muslim religion
@@ -21,15 +19,11 @@ are some of the best people around. They live a very caring and
 dedicated life. They are truly good people and can make wonderful
 neighbors and friends.
 
-
-
 Second, from the book of Romans, being a Jew and being circumcised
 does not make you a better than anyone else. If you don't live the law
 you proclaim to follow you truly aren't worthy of the “blessings” that
 go with the title. Romans 2 states you will be judged by the law you
 live not the law you proclaim to belong to.
-
-
 
 Last, from the time of Alma until the time of the coming of Christ to
 the Americas the Prophets went about teaching and reclaiming the
@@ -39,8 +33,6 @@ back into pride and contentious activities. Many of the people of the
 church at that time would begin to persecute those who did not belong
 to the church or those who had less possessions than they did. Only a
 few remained faithful in their beliefs and actions.
-
-
 
 Today we find much the same in behaviors. Many people claiming a
 belief, yet not willing to live accordingly. Outwardly they want
@@ -60,12 +52,8 @@ then you can claim to be an American but unless you understand and
 live by the constitution following the laws that were set up therein
 are you really an American.
 
-
-
 It is something to think about. Where do you stand on any of these
 positions? Are you what you profess to be?
-
-
 
 -V. Salt
 

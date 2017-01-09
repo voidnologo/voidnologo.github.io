@@ -17,15 +17,11 @@ This chapter is a description of the "heritage of the servants of the Lord”
 ([v.17](https://www.lds.org/scriptures/bofm/3-ne/16.17?lang=eng)), including the following
 blessings:
 
-
-
   * "My kindness shall not depart from thee, neither shall the covenant of my peace be removed"
   * "Great shall be the peace of thy children"
   * "Thou shalt be far from oppression for thou shalt not fear, and from terror, for it shall not come near thee"
   * "No weapon that is formed against thee shall prosper"
   * "Every tongue that shall revile against thee in judgment thou shalt condemn"
-
-
 
 These blessings will be received by the "servants of the Lord", of
 whom the Lord states, "their righteousness is of me" ([v.17](https://www.lds.org/scriptures/bofm/3-ne/22.17?lang=eng)).

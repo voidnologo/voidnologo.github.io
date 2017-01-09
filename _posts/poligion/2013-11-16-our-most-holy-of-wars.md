@@ -9,10 +9,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-
-
-
-
 Abraham Lincoln has been raised to status of diety in the eyes of
 many. Any attempt to state that perhaps the South had reason to resist
 the North are met with cries of derision and mockery. Yet there is
@@ -20,8 +16,6 @@ much that must be refuted to proclaim the Union's stance as one purely
 holy and glorious. Consider the following statement from a coalition
 of Northern governors to Lincoln to persuade him to not falter in the
 march to war:
-
-
 
 > Seward [Lincoln's Secretary of State who was urging peace] cries
 perpetually that we must not do this, and that, for fear war should
@@ -53,16 +47,11 @@ want—a consolidated government, an indefinite party ascendancy, and
 ability to lay on such tariffs and taxes as we please, and aggrandize
 ourselves and our section![^1]
 
-
-
 Behold, the party of Lincoln. And the government that we now have.
 Perhaps we should worship him, as our true founding father. Following
 his reign of blood and horror this is exactly what we have gotten. The
 Constitution was dealt a fatal blow many years ago, and we have been
 slowly dying ever since.
-
-
-
 
 ----
 [^1]: Robert L. Dabney, “Memoir of a Narrative Received of Colonel John B. Baldwin of Staunton, Touching the Origin of the War,” Discussions (Harrisonburg, Va.: Sprinkle Publications, 1994), pp. 87–110.

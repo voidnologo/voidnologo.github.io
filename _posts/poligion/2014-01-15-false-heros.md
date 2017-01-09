@@ -12,8 +12,6 @@ tags: []
 "It is forbidden to kill; therefore all murderers are punished unless they kill in large numbers and to the sound of trumpets.”
 <small>~ Voltaire</small>
 
-
-
 Here is the famed Seneca, writing in the first century:
 
 > We are mad, not only individually, but nationally. We check
@@ -47,20 +45,13 @@ dwelling of the gods. But he who has slaughtered endless thousands of
 men, deluged the fields with blood, (and) infected rivers (with it),
 is admitted not only to a temple, but even to heaven.
 
-
-
 Just as you can’t have a war on drugs without DEA agents, just as you
 can’t have invasive airline security procedures without TSA agents,
 and just as you can't have a police state without police, so you can’t
 have a war without soldiers.
 
-
-
 This mindset that exalts and excuses soldiers for doing things that
 ordinary Americans would be put in prison for must be destroyed.
-
-
-
 
 See: [You Can't Have a War Without
 Soldiers](http://www.lewrockwell.com/2014/01/laurence-m-vance/you-
