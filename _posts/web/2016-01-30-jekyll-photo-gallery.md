@@ -38,13 +38,13 @@ files can get you an arbitrary group of files.  The basic structure looks like:
 From there I just expanded out capabilities and layout.  I went with [Lightbox2](http://lokeshdhakar.com/projects/lightbox2/)
 to do some cool display work for me.
 
-###Example
+### Example
 
 You can see the page I ended up with [here](http://raccoonvalleykendo.com/gallery/).
 
 -----
 
-###The Code
+### The Code
 <br>
 
 I think we are going to end up with multiple galleries, so I wanted everything controlled by variables set in
