@@ -25,7 +25,7 @@ This results in
 {'key': {'an_attribute': [item1, item2]}}
 {% endhighlight %}
 
-###To display in django templates
+### To display in django templates
 
 So if I had the following objects, and wanted to organzie them by color:
 {% highlight python %}
@@ -57,7 +57,7 @@ And accessing each level of the structure in our template:
 {% endraw %}
 {% endhighlight %}
 
-###DISPLAY
+### Display
 
 <table style="border:1px solid;">
       <tr>
