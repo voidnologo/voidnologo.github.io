@@ -28,11 +28,6 @@ to have stirred yourselves more diligently for the welfare and the
 freedom of this people..." (Alma 60:7,10)
 
 
-
-
-
-
-
 The first thing to do in my mind is to study principles of good and
 righteous government so we can develop skills to discern truth and
 develop a foundation to frame our thoughts. Unfortunately debate on
