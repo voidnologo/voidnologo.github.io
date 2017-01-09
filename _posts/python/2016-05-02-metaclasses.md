@@ -3,7 +3,7 @@ layout: post
 title: "Metaclasses"
 description: ""
 tagline: ""
-category:
+category: python
 tags: [python]
 ---
 {% include JB/setup %}
