@@ -14,7 +14,7 @@ Liberty, freedom, and agency.  We hear these terms brandied about
 frequently, and for the most part use them interchangeably.  What do
 they actually mean, and how are they related?
 
-##AGENCY
+## AGENCY
 
 Agency is a fundamental principle of godliness.  It is a right given
 to each of us by God.  It is the inherent capacity to be able to
@@ -27,7 +27,7 @@ all their actions are based upon and determined by the set of laws
 given for the sphere in which they dwell.  Agency is the greatest gift
 we can be given.
 
-##FREEDOM
+## FREEDOM
 
 Freedom is the ability to act.  It is the realm of constraints upon
 our ability to exercise our agency.  Freedom is measured by the level
@@ -38,7 +38,7 @@ affect on promoting or limiting our freedom, but some restrictions are
 completely out of our control.  Our freedom dictates the extent to
 which our agency can be implemented.
 
-##LIBERTY
+## LIBERTY
 
 Liberty consists in the social and political environments which create
 the level of freedom which we enjoy.  Liberty is purely a function of
@@ -53,7 +53,7 @@ them are reduced, we become limited in our ability to act and become
 like our Father in Heaven.
 
 
-##EXAMPLES
+## EXAMPLES
 
 In _Life is Beautiful_, a father and his son are confined in a Nazi
 concentration camp.  They have no liberty, and their freedom is
