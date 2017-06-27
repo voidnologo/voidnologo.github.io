@@ -20,7 +20,7 @@ Fortunately Python 3.4 has released some very handy methods to deal with this.
 
 -------
 
-##Python 2
+## Python 2
 
 Examples taken from [this Stackoverflow](http://stackoverflow.com/questions/4219717/how-to-assert-output-with-nosetest-unittest-in-python)
 question:
@@ -73,7 +73,7 @@ self.assertEqual(output, 'hello world!')
 
 -------
 
-##Python 3.4
+## Python 3.4
 
 In the [`contextlib` library](https://docs.python.org/3.4/library/contextlib.html) there is a new context manager to do
 something similar to the last example.  You now no longer have to

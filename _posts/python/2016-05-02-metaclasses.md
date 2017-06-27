@@ -4,7 +4,7 @@ title: "Metaclasses"
 description: ""
 tagline: ""
 category: python
-tags: [python]
+tags: [python, metaclass]
 ---
 {% include JB/setup %}
 
