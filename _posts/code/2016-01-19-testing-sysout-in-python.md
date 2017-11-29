@@ -2,8 +2,7 @@
 layout: post
 title: Testing `print()` statements in Python
 description: ""
-category: python
-tags: [python, testing, games]
+categories: testing cmd-line
 ---
 
 

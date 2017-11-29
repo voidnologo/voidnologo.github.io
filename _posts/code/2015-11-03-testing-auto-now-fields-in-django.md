@@ -2,8 +2,7 @@
 layout: post
 title: Testing `auto_now` fields in Django models
 description: ""
-category: python
-tags: [python, django, testing]
+categories: testing django
 ---
 
 Django models have a nice attribute of [`auto_now`](https://docs.djangoproject.com/en/1.9/ref/models/fields/#datefield)

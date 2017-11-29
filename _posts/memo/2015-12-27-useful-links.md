@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "useful links"
+title:  "Useful Links"
 date:   2015-12-27
-comments: true
+categories: Useful_Links
 ---
 
 * content
 {:toc}
 
-### ParaCraft
-http://www.paracraft.cn
+### Python3 Standard Library
+https://docs.python.org/3/library/index.html
 
-### NPL
-http://www.nplproject.com
+### Django
+https://www.djangoproject.com/

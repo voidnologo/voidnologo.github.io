@@ -2,8 +2,7 @@
 layout: post
 title: "Threadsafe Iterator"
 description: ""
-category: python
-tags: [python, coroutine, decorators, generator]
+categories: coroutine generators decorators
 ---
 
 - Python3.4

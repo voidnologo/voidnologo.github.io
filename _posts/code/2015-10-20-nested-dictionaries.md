@@ -2,7 +2,7 @@
 layout: post
 title: "Nested Dictionaries"
 date:   2015-02-10 15:14:54
-categories: python
+categories: data-structures
 ---
 
 Recently came across a situation where I was trying to display a dictionary of dictionaries of lists in a django template.

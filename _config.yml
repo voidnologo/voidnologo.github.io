@@ -22,9 +22,13 @@ newsourceroot: https://github.com/voidnologo/voidnologo.github.io/new/master
 # Build settings
 markdown: kramdown
 
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+
 # highlight
 # highlighter: pygments
-# highlighter: rouge
+highlighter: rouge
 # highlighter: false
 #
 author :

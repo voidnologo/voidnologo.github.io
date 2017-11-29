@@ -2,8 +2,7 @@
 layout: post
 title: "Metaclasses"
 description: ""
-category: python
-tags: [python, metaclass]
+categories: metaclass
 ---
 
 Note: this is just a copy of [this](http://stackoverflow.com/a/6581949) StackOverflow answer.
