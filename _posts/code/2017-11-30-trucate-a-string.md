@@ -24,7 +24,7 @@ def truncate(data, width):
     return '\n'.join([x[:width - 3] + ellipse if len(x) > width else x for x in data.split('\n')])
 {% endhighlight %}
 
-### Explaination
+### Explanation
 
 Split the input on newlines, creating each line as an element in a list.  Iterate over the list of
 strings, checking the length of each string.  If the length is less than the `max_width` set, leave the
