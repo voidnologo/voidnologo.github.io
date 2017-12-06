@@ -37,8 +37,7 @@ class Counters:
 ## Solution
 
 In the Python Data model [(docs 3.1)](https://docs.python.org/3/reference/datamodel.html) 'Class instances'
-it states: "If no class attribute is found, and the object’s class has a [`__getattr__()`](https://docs.python.org/3/reference/datamodel.html#object.__getattr__)
-method, that is called to satisfy the lookup."
+it states: "If no class attribute is found, and the object’s class has a [`__getattr__()` method](https://docs.python.org/3/reference/datamodel.html#object.__getattr__), that is called to satisfy the lookup."
 We are going to leverage this to be able to call methods on our class that we don't explicitly define.
 
 
