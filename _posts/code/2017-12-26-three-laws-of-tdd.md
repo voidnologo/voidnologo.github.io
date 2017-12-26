@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Three Laws of TDD
-categories: TDD
+categories: testing
 ---
 
 ## Test Driven Development (TDD)
