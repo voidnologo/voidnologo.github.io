@@ -1,11 +1,7 @@
-/**
- * 页面ready方法
- */
 $(document).ready(function() {
 
     categoryDisplay();
     generateContent();
-    backToTop();
 });
 
 function fixFooterInit() {
@@ -58,26 +54,6 @@ function categoryDisplay() {
     });
 }
 
-function backToTop() {
-    $(window).scroll(function() {
-        if ($(window).scrollTop() > 100) {
-            $("#top").fadeIn(500);
-        } else {
-            $("#top").fadeOut(500);
-        }
-    });
-    $("#top").click(function() {
-        $("body").animate({
-            scrollTop: "0"
-        }, 500);
-    });
-
-    $(function() {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-}
-
-
 function generateContent() {
 
     // console.log($('#markdown-toc').html());
@@ -87,5 +63,4 @@ function generateContent() {
     } else {
         $('#content .content-text').html('<ul>' + $('#markdown-toc').html() + '</ul>');
     }
-    console.log("myAffix!!!");
 }
