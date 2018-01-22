@@ -56,7 +56,7 @@ I have greatly enjoyed sharing the things I am learning.
 
 ### Teaching Youth to Code
 
-Talk I gave at Pyowa about my experiences teach youth to code.
+Talk I gave at Pyowa about my experiences teaching youth to code.
 I wander around a lot, and the camera went very red.  Sorry.
 
 [Slides for the presentation](http://www.pyowa.org/static/pdf/TeachYouth.pdf)
@@ -87,10 +87,9 @@ Slides: [low resolution](/static/pdf/codecamp_small.pdf) &nbsp;&nbsp; [full reso
 
 9:00 AM - 10:15 AM : Room 109 : So you want (someone else) to learn to code (Level: 100)
 
-This is a personal website of Caleb Salt (voidnologo), created with github and jekyll.
-
 <hr/>
 
 ### Batteries Included: The Python Standard Library
 
 Series of talks I am working on to present at Pyowa.  I'll post slides/code as I give them.
+
