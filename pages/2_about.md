@@ -8,6 +8,11 @@ permalink: /about/
 {:toc}
 
 ## whoami
+Caleb Salt
+
+  <a href="https://github.com/voidnologo"><i class="fa fa-github"></i> Voidnologo</a>
+
+  <a href="https://twitter.com/voidnologo"><i class="fa fa-twitter"></i> @voidnologo</a>
 
 I am a mostly self taught programmer who is passionate about Python and mentoring.
 
