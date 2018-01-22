@@ -45,6 +45,10 @@ the language is becoming more complex, or burn out is setting in.
 
 - Technical Instructor at [Urbandale Public Library](http://urbandalelibrary.evanced.info/signup).
 
+- TA for [Reboot Iowa](https://rebootiowa.org/)'s  ['Teach Me To Code'](https://twitter.com/rebootiowa/status/882698106537725961) in 2017.
+
+- TA/Instructor for [Tech Journey](https://www.techjourney.org/tech-camp/)'s Python Robotics and Makerspace classes.
+
 - Organizer/co-founder [Raccoon Valley Kendo Club](http://raccoonvalleykendo.com), Iowa's
   Premier (and only) kendo club.  Practices are Friday evenings at 6:30.
 
