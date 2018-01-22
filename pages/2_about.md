@@ -7,12 +7,16 @@ permalink: /about/
 * content
 {:toc}
 
-## whoami
+<h2>
+  <img src="/static/img/shio.svg" width="50" height="50" alt="">
+  (~)$whoami
+</h2>
 Caleb Salt
-
+<br/>
   <a href="https://github.com/voidnologo"><i class="fa fa-github"></i> Voidnologo</a>
-
+<br/>
   <a href="https://twitter.com/voidnologo"><i class="fa fa-twitter"></i> @voidnologo</a>
+<br/>
 
 I am a mostly self taught programmer who is passionate about Python and mentoring.
 
