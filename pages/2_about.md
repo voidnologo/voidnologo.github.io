@@ -31,15 +31,15 @@ Python, and have been loving it.
 In high school I spent a lot of time in the computer lab.  Entering college I was
 eager and excited to learn more programming, only to be confronted by professors who
 loathed students and obviously despised the curriculum.  It was soul crushing being
-constantly surrounded by a constant barrage of negativity.  I ended up leaving the CS
-department and evnentually got a degree in another field (Political Science) that I found
+constantly surrounded by a barrage of negativity.  I ended up leaving the CS
+department and eventually got a degree in another field (Political Science) that I found
 interesting and enjoyable.  I still had an interst in programming and continued spiking
 around on personal projects the whole time.
 
 I often wonder what my life would have looked like if I had had a mentor or someone to
 coach me through the tough times.  I had opportunities, but either didn't recognize them
-or take advantage.  Would I have another decade of experience in my current field?  I certainly
-don't regret the experiences that I've gained by taking a different path, but there are
+or take advantage.  Would I have another decade of experience in my current field?  I don't 
+regret the experiences that I've gained by taking a different path, but there are
 certainly costs associated with it.
 
 I hope that I can spark that love of programming in others who are interested.  I love
