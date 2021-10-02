@@ -67,3 +67,11 @@ permalink: /learning/
 - While the code sources are in python, _Math for Programmers_ is a solid overview of a lot of math topics and shouldn't really be thought of as a "python" book.
 
   [Math for Programmers](https://www.manning.com/books/math-for-programmers)
+
+
+#### VIM
+
+- Want to learn the greatest editor, but feel overwhelmed by all the memes of how hard it is?
+  Have a ton of fun learning!
+
+  [Vim Adventures](https://vim-adventures.com/)
