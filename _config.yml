@@ -13,7 +13,6 @@ production_url: http://voidnologo.github.io
 
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: voidnologo
 github_username: voidnologo
 permalink: /:year/:month/:day/:title/
 # this is the url root of the view source link on the footer page.
@@ -38,5 +37,3 @@ author :
   name : Caleb Salt
   email : void.no.logo@gmail.com
   github : voidnologo
-  twitter : voidnologo
-  facebook: voidnologo
