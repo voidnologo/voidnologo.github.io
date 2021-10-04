@@ -36,7 +36,12 @@ permalink: /learning/
 - DjangoGirls has an easy to follow tutorial on making a website with the Django framework.  This is what I do at work.
 
   [Django Girls](https://tutorial.djangogirls.org/en/)
+  
+  
+- It's super easy to make a terrible web application with Flask; isn't everyones cuppa. However, a well-planned architecture can result in a quick and straight-forward Python web app that get's the job done *fast*. Miguel Grinberg is the author of O'Reilly's "Flask Web Development," but Grinberg's blog is where you really need to go to learn Flask right and avoid common mistakes that are so easy to fall into with this open-ended non-opinionated framework:
 
+  [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+   
 
 - If you like a school course style of learning, this site is really good:
 
