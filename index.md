@@ -7,7 +7,7 @@ title: Home
 
 An enthusiastic backend systems engineer who has been building web applications for almost a decade.
 I am passionate about mentoring all the way from interns through senior engineers.
-I enjoy leading and being part of software teams where we collaborate to build top-notch, reliable and maintainable APIS that drive the business forward.
+I enjoy leading and being part of software teams where we collaborate to build top-notch, reliable and maintainable APIs that drive the business forward.
 
 Everyday I want to learn something new and feel challenged to improve.
 
