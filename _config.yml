@@ -1,0 +1,57 @@
+title: Caleb Salt
+description: Software Engineer
+baseurl: ""
+url: https://voidnologo.github.io
+
+theme: cvless
+
+# site settings
+taglong: Let's build some beautiful APIs
+tagshort: Backend Software Engineer
+
+# author settings
+author:
+  name: Caleb Salt
+  email: dev@voidnologo.com
+photo: assets/files/caleb_icon.png
+phone: +1 515 508 1334
+
+# social media links
+social:
+  github: voidnologo
+  linkedin: caleb-salt-a88510b8
+
+# build settings
+permalink: pretty
+
+exclude:
+  - docker-compose.yml
+  - demo/
+  - cvless.gemspec
+  - LICENSE
+  - README.md
+  - screenshot.png
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
