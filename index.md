@@ -6,7 +6,7 @@ title: Home
 # About
 
 An enthusiastic backend systems engineer who has been building web applications for almost a decade.
-I am passionate about mentoring engineers all the way from internship through senior engineers.
+I am passionate about mentoring all the way from interns through senior engineers.
 I enjoy leading and being part of software teams where we collaborate to build top-notch, reliable and maintainable APIS that drive the business forward.
 
 Everyday I want to learn something new and feel challenged to improve.
@@ -18,12 +18,12 @@ Everyday I want to learn something new and feel challenged to improve.
     and strong engineering leader. If anyone in my network is looking for a great senior
     backend dev and technical lead, you should reach out to him - you won't regret it!
 </blockquote>
-- Jade Rouse
+<cite>Jade Rouse</cite>
 
 <blockquote>
     I’ve worked on a team with Caleb in the past and highly recommend working with him if you can!
 </blockquote>
-- Ryan Lanciaux
+<cite>Ryan Lanciaux</cite>
 
 <blockquote>
     Just once in a while you encounter one of those engineers whose is a true technical master.
@@ -32,13 +32,13 @@ Everyday I want to learn something new and feel challenged to improve.
 
     Caleb is that guy.
 </blockquote>
-- David Stiennon
+<cite>David Stiennon</cite>
 
 <blockquote>
     Caleb is an excellent mentor and all around friendly guy with great ideas on building scalable technologies,
     10/10 recommend working with him!
 </blockquote>
-- Kiara Moyer
+<cite>Kiara Moyer</cite>
 
 <blockquote>
     During our time together on our Platform team, Caleb quickly emerged as a very strong technical leader in the realm of Software Development.
@@ -47,12 +47,9 @@ Everyday I want to learn something new and feel challenged to improve.
     resolve problems. Also his dedication to sharing and teaching technical knowledge, and his willingness to lead tech discussions has
     been a huge help to our team. I would absolutely work with Caleb again given the chance.
 </blockquote>
-- Eric Mooney
+<cite>Eric Mooney</cite>
 
-<hr>
 <hr>
 
 [View CV](cv)
-
-[Download print version](assets/files/caleb_salt.pdf)
 
