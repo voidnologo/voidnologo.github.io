@@ -3,7 +3,7 @@ description: Software Engineer
 baseurl: ""
 url: https://voidnologo.github.io
 
-theme: cvless
+# theme: cvless
 
 # site settings
 taglong: Let's build some beautiful APIs
