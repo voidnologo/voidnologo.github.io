@@ -1,0 +1,30 @@
+title: Caleb Salt
+description: Software Engineer
+baseurl: ""
+url: https://voidnologo.github.io
+
+theme: cvless
+
+# site settings
+taglong: Let's build some beautiful APIs
+tagshort: Backend Software Engineer
+
+# author settings
+author:
+  name: Caleb Salt
+  email: dev@voidnologo.com
+photo: assets/files/caleb_icon.png
+address: 127.0.0.1
+phone: +1 515 508 1334
+
+# social media links
+social:
+  github: voidnologo
+  linkedin: caleb-salt-a88510b8
+
+# build settings
+permalink: pretty
+exclude:
+  - docker-compose.yml
+  - LICENSE
+  - README.md
