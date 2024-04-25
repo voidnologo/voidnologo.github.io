@@ -60,6 +60,14 @@ Everyday I want to learn something new and feel challenged to improve.
 </blockquote>
 <cite>Jade Rouse</cite>
 
+<blockquote>
+    Caleb is on the lookout for his next adventure in the tech world, and trust me, you don't want to miss out on working with him!
+    I had the pleasure of collaborating with Caleb in the past, and let me tell you, he's an absolute gem 💎. While I was focused on client success, Caleb, with his expertise as a backend engineer, and I worked hand in hand, ensuring our clients were not only satisfied but also empowered with the knowledge they needed.
+    Caleb's dedication to his work is unmatched, and his willingness to lend a hand whenever needed truly sets him apart. Plus, his ability to gather feedback from clients and translate it into actionable insights for his team is nothing short of impressive.
+    So, if you're on the lookout for a hardworking, collaborative teammate who brings passion and expertise to the table, look no further than Caleb! Reach out to him for any exciting opportunities that may be on the horizon. Trust me, you won't regret it! 🚀
+</blockquote>
+<cite>MaryAnn Lang</cite>
+
 
 <hr>
 
