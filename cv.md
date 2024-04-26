@@ -89,7 +89,7 @@ Main developer and maintainer for workers compensation regulatory reporting syst
 
 * Designed, created electronic data interchange (EDI) system to provide claims reporting to state regulatory bodies.
 * Created test records and initiated data sharing systems to comply with multi-state reporting requirements.
-* Itroduced version control system to development team.
+* Introduced version control system to development team.
 
 ### Personal Lines Systems
 Designed, programmed, and provided system maintenance on underwriting systems for the quoting and handling of personal lines policies.
