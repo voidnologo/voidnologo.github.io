@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "move": { "enable": true, "speed": 3, "direction": "none", "random": true, "straight": false, "out_mode": "out", "attract": { "enable": true, "rotateX": 600, "rotateY": 1200 } }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "window",
       "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": true, "mode": "push" }, "resize": true },
       "modes": { "grab": { "distance": 200, "line_linked": { "opacity": 0.8 } }, "push": { "particles_nb": 3 } }
     },
