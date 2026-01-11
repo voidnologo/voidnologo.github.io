@@ -252,6 +252,7 @@ a.site-title:focus, a.site-title:hover {
   align-items: center;
   text-align: center;
   z-index: 1;
+  pointer-events: none;
 }
 .splash-section h1, .splash-section h2 {
   color: var(--color-particles-text);
@@ -265,11 +266,19 @@ a.site-title:focus, a.site-title:hover {
   left: 50%;
   transform: translateX(-50%);
 }
+.splash-section a {
+  pointer-events: auto;
+}
 
 .content-panel {
-  background-color: var(--color-background);
   position: relative;
   z-index: 1;
+}
+.content-panel .col,
+.content-panel .col-sm-10,
+.content-panel .col-md-8,
+.content-panel .col-lg-6 {
+  background-color: var(--color-background);
 }
 
 .particles-photo {
