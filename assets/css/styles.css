@@ -273,12 +273,14 @@ a.site-title:focus, a.site-title:hover {
 .content-panel {
   position: relative;
   z-index: 1;
+  pointer-events: none;
 }
 .content-panel .col,
 .content-panel .col-sm-10,
 .content-panel .col-md-8,
 .content-panel .col-lg-6 {
   background-color: var(--color-background);
+  pointer-events: auto;
 }
 
 .particles-photo {
