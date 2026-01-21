@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Friendsiversary 2025</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .header .tagline {
+      font-size: 1.3em;
+      opacity: 0.95;
+      font-style: italic;
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    .main-event {
+      background: linear-gradient(135deg, #00c6fb 0%, #005bea 100%);
+      color: white;
+      padding: 40px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .main-event h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+
+    .main-event .dates {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .main-event .location {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .main-event .highlight {
+      background: rgba(255,255,255,0.2);
+      padding: 15px 25px;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 10px 0;
+    }
+
+    .main-event a {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .included-notice {
+      background: #4ade80;
+      color: #166534;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    .section {
+      margin-bottom: 35px;
+    }
+
+    .section h2 {
+      color: #5b21b6;
+      border-bottom: 3px solid #8b5cf6;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+    }
+
+    .section h3 {
+      color: #6d28d9;
+      margin: 20px 0 10px 0;
+    }
+
+    .adventure-section {
+      background: #f0fdf4;
+      border-left: 4px solid #22c55e;
+      padding: 20px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 30px;
+    }
+
+    .adventure-section h3 {
+      color: #166534;
+      margin-top: 0;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .link-card {
+      background: #f3e8ff;
+      padding: 15px 20px;
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .link-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+    }
+
+    .link-card a {
+      color: #7c3aed;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .link-card a:hover {
+      text-decoration: underline;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    th {
+      background: #8b5cf6;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background: #faf5ff;
+    }
+
+    .amenities {
+      background: #faf5ff;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin: 15px 0;
+    }
+
+    .amenities ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 8px;
+    }
+
+    .amenities li::before {
+      content: "✓ ";
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    .key-dates {
+      background: #fef3c7;
+      border: 2px solid #f59e0b;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .key-dates table {
+      margin: 0;
+    }
+
+    .key-dates th {
+      background: #f59e0b;
+    }
+
+    .deadline {
+      color: #dc2626;
+      font-weight: 600;
+    }
+
+    .formula-box {
+      background: #f1f5f9;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 15px 0;
+      font-family: 'Courier New', monospace;
+    }
+
+    .example-calc {
+      background: #ecfdf5;
+      border: 1px solid #10b981;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+
+    .example-calc h4 {
+      color: #059669;
+      margin-bottom: 15px;
+    }
+
+    .payment-info {
+      background: #dbeafe;
+      border-left: 4px solid #3b82f6;
+      padding: 15px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+    }
+
+    .policy-table {
+      margin: 15px 0;
+    }
+
+    .policy-table th {
+      background: #6b7280;
+    }
+
+    .snark {
+      background: #fef2f2;
+      border-left: 4px solid #ef4444;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+    }
+
+    .snark .response {
+      font-style: normal;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .footer {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .footer h3 {
+      color: #f9fafb;
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      display: inline-block;
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      color: white;
+      padding: 15px 40px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-top: 15px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cta:hover {
+      transform: scale(1.05);
+      box-shadow: 0 5px 20px rgba(240, 147, 251, 0.4);
+    }
+
+    @media (max-width: 600px) {
+      .header h1 {
+        font-size: 2em;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .main-event {
+        padding: 25px;
+      }
+
+      table {
+        font-size: 0.9em;
+      }
+
+      th, td {
+        padding: 8px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>The Friendsiversary</h1>
+      <p class="tagline">A family reunion... but for friends.</p>
+    </div>
+
+    <div class="content">
+      <!-- MAIN EVENT - Most Prominent -->
+      <div class="main-event">
+        <h2>Waterpark &amp; Funland</h2>
+        <div class="dates">Wednesday, May 27 – Saturday, May 30, 2025</div>
+        <div class="location">Sevierville / Pigeon Forge, TN</div>
+
+        <div class="highlight">
+          <strong>Main Attraction:</strong><br>
+          <a href="https://soakymountainwaterpark.com/" target="_blank">Soaky Mountain Water Park</a><br>
+          Indoor &amp; Outdoor Sections
+        </div>
+
+        <div class="included-notice">
+          Waterpark Admission INCLUDED in Cabin Costs!
+        </div>
+      </div>
+
+      <!-- Explore the Area Links -->
+      <div class="section">
+        <h2>Explore the Area</h2>
+        <div class="links-grid">
+          <div class="link-card">
+            <a href="https://soakymountainwaterpark.com/" target="_blank">Soaky Mountain Water Park</a>
+          </div>
+          <div class="link-card">
+            <a href="https://www.visitsevierville.com/things-to-do/" target="_blank">Things to Do in Sevierville</a>
+          </div>
+          <div class="link-card">
+            <a href="https://www.mypigeonforge.com/things-to-do/" target="_blank">Things to Do in Pigeon Forge</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Adventure Section -->
+      <div class="adventure-section">
+        <h3>Part 1: The Adventure — Appalachian Trail Hike</h3>
+        <p><strong>Dates:</strong> Monday, May 18 – Tuesday, May 27, 2025</p>
+        <p>A 75-mile long-distance hike on the Appalachian Trail across the Great Smoky Mountains National Park.</p>
+        <p><em>Contact me directly for details if you're interested in joining the hike.</em></p>
+      </div>
+
+      <!-- Lodging -->
+      <div class="section">
+        <h2>Lodging</h2>
+        <p>We're booking cabins at <strong>Wilderness at the Smokies</strong> resort.</p>
+
+        <div class="amenities">
+          <strong>All Cabins Include:</strong>
+          <ul>
+            <li>Grills &amp; Decks</li>
+            <li>TVs</li>
+            <li>Washer/Dryers</li>
+            <li>Full Kitchens</li>
+          </ul>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Cabin Type</th>
+              <th>Sleeps</th>
+              <th>Price/Night</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Tree House Cabin</strong></td>
+              <td>22</td>
+              <td>$1,000 – $1,300</td>
+            </tr>
+            <tr>
+              <td><strong>Entertainment Cabin</strong></td>
+              <td>20</td>
+              <td>$850 – $1,000</td>
+            </tr>
+            <tr>
+              <td><strong>Individual Cabins</strong></td>
+              <td>10</td>
+              <td>$400 – $500</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p><em>The Tree House and Entertainment cabins also include theater TVs with 7.1 surround sound and foosball tables.</em></p>
+
+        <p><strong>Budget Estimate:</strong> $4,200 total for resort accommodations</p>
+      </div>
+
+      <!-- Key Dates -->
+      <div class="section">
+        <h2>Key Dates</h2>
+        <div class="key-dates">
+          <table>
+            <thead>
+              <tr>
+                <th>Deadline</th>
+                <th>Date</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>RSVP Deadline</strong></td>
+                <td class="deadline">Friday, Feb 7</td>
+                <td>Solid yes/no by midnight EST</td>
+              </tr>
+              <tr>
+                <td><strong>Down Payment</strong></td>
+                <td class="deadline">Tuesday, Feb 18</td>
+                <td>Payment due by midnight EST</td>
+              </tr>
+              <tr>
+                <td><strong>Cabin Booking</strong></td>
+                <td>Friday, Feb 21</td>
+                <td>We book the cabin(s)</td>
+              </tr>
+              <tr>
+                <td><strong>Final Payment</strong></td>
+                <td class="deadline">Saturday, May 23</td>
+                <td>Remaining balance due by midnight EST</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Cost Calculation -->
+      <div class="section">
+        <h2>How Costs Are Calculated</h2>
+        <p>Once we have confirmed commitments, we'll check actual prices and divide the total using this formula:</p>
+
+        <h3>Unit System</h3>
+        <ul>
+          <li><strong>Adults (age 17+):</strong> 1 unit</li>
+          <li><strong>Youth/Kids (age 16 and under):</strong> ½ unit</li>
+        </ul>
+
+        <div class="formula-box">
+          Total Price ÷ Number of Units = Per Unit Price
+        </div>
+
+        <div class="example-calc">
+          <h4>Example Calculation</h4>
+          <p><strong>Total Cost:</strong> $4,200<br>
+          <strong>Attendance:</strong> 9 adults, 7 kids</p>
+
+          <div class="formula-box">
+            $4,200 ÷ ((9 × 2) + 7) = $4,200 ÷ 25 half-units = <strong>$168 per half-unit</strong>
+          </div>
+
+          <p><strong>Your family (2 adults + 4 kids = 8 half-units):</strong></p>
+          <div class="formula-box">
+            8 × $168 = <strong>$1,344 total</strong>
+          </div>
+        </div>
+
+        <div class="payment-info">
+          <strong>Down Payment:</strong> 50% of your final amount<br>
+          <em>(In the example: $672 would be due February 18)</em>
+        </div>
+
+        <p>Funds will be paid to <strong>Gina and Caleb Salt</strong>, who will hold them in escrow and make the payments on behalf of the group.</p>
+      </div>
+
+      <!-- Cancellation Policy -->
+      <div class="section">
+        <h2>Cancellation &amp; Refund Policy</h2>
+        <table class="policy-table">
+          <thead>
+            <tr>
+              <th>When You Cancel</th>
+              <th>Refund</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Before any money has been paid to the resort</td>
+              <td><strong>100% refund</strong></td>
+            </tr>
+            <tr>
+              <td>After money has been paid to the resort</td>
+              <td><strong>50% refund</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><em>"Paid" = funds have left our account to purchase resort accommodations</em></p>
+
+        <div class="snark">
+          "Hey, your cancellation/refund policy is terrible."
+          <div class="response">You are welcome to book your own stay.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h3>Questions?</h3>
+      <p>Reach out to Gina and Caleb Salt with any questions about the event, payments, or logistics.</p>
+      <p style="margin-top: 20px; font-size: 1.3em;"><strong>See you at the Friendsiversary!</strong></p>
+    </div>
+  </div>
+</body>
+</html>
