@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Caleb Salt - CV</title>
+  <style>
+    @font-face {
+      font-family: 'Piazzolla';
+      src: url('../fonts/Piazzolla-Light.woff2') format('woff2');
+      font-weight: 300;
+    }
+    @font-face {
+      font-family: 'Piazzolla';
+      src: url('../fonts/Piazzolla-Regular.woff2') format('woff2');
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: 'Piazzolla';
+      src: url('../fonts/Piazzolla-Medium.woff2') format('woff2');
+      font-weight: 500;
+    }
+    @font-face {
+      font-family: 'Piazzolla SC';
+      src: url('../fonts/PiazzollaSC-Medium.woff2') format('woff2');
+      font-weight: 500;
+    }
+
+    @page {
+      size: letter;
+      margin: 0.6in 0.7in;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Piazzolla', 'Georgia', serif;
+      font-size: 9.5pt;
+      line-height: 1.35;
+      color: #343a40;
+      background: white;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-bottom: 2px solid #5E81AC;
+      padding-bottom: 0.4em;
+      margin-bottom: 0.6em;
+    }
+    .header-name {
+      font-size: 20pt;
+      font-weight: 500;
+      color: #343a40;
+      letter-spacing: 0.02em;
+    }
+    .header-subtitle {
+      font-size: 10pt;
+      font-weight: 300;
+      color: #5E81AC;
+      margin-top: 0.1em;
+    }
+    .header-contact {
+      text-align: right;
+      font-size: 8.5pt;
+      line-height: 1.5;
+      color: #495057;
+    }
+    .header-contact a {
+      color: #1971c2;
+      text-decoration: none;
+    }
+
+    /* Section titles */
+    h2 {
+      font-size: 11pt;
+      font-weight: 500;
+      color: #5E81AC;
+      border-bottom: 1.5px solid #5E81AC;
+      padding-bottom: 0.15em;
+      margin-top: 0.7em;
+      margin-bottom: 0.5em;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* Entry blocks */
+    .entry {
+      margin-bottom: 0.7em;
+      page-break-inside: avoid;
+    }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .entry-company {
+      font-family: 'Piazzolla SC', 'Piazzolla', serif;
+      font-size: 10.5pt;
+      font-weight: 500;
+      color: #343a40;
+    }
+    .entry-date {
+      font-size: 8.5pt;
+      color: #5E81AC;
+      white-space: nowrap;
+    }
+    .entry-title {
+      font-weight: 500;
+      font-size: 9.5pt;
+      margin: 0.1em 0;
+    }
+    .entry-tech {
+      font-size: 8pt;
+      color: #868e96;
+      margin: 0.2em 0;
+    }
+    .entry-summary {
+      margin: 0.3em 0;
+    }
+    .entry ul {
+      margin: 0.2em 0 0 1.2em;
+      padding: 0;
+    }
+    .entry li {
+      margin-bottom: 0.15em;
+    }
+
+    /* Subsections (EMC) */
+    .subsection {
+      margin-top: 0.4em;
+      padding-left: 0.8em;
+      border-left: 1.5px solid #ced4da;
+    }
+    .subsection h3 {
+      font-size: 9.5pt;
+      font-weight: 500;
+      color: #495057;
+      margin-bottom: 0.15em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div>
+      <div class="header-name">Caleb Salt</div>
+      <div class="header-subtitle">Backend Software Engineer</div>
+    </div>
+    <div class="header-contact">
+      Chattanooga, TN<br>
+      +1 515 508 1334<br>
+      <a href="mailto:dev@voidnologo.com">dev@voidnologo.com</a><br>
+      <a href="https://voidnologo.com">voidnologo.com</a>
+    </div>
+  </div>
+
+  <h2>Experience</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-company">Telegraph</span>
+      <span class="entry-date">May 2024 – Present</span>
+    </div>
+    <p class="entry-title">Senior Software Engineer, Backend</p>
+    <p class="entry-tech">Python · Falcon · SQLAlchemy · Pydantic · Celery · Redis · PostgreSQL · AWS · Terraform · Sentry · Datadog</p>
+    <p class="entry-summary">Drove backend architecture decisions, code quality standards, and feature delivery for a rail logistics visibility platform. Led major initiatives spanning billing, analytics, and infrastructure modernization.</p>
+    <ul>
+      <li>Led design and development of an external invoicing platform (Telecoin) integrating EDI 210/997 standards for automated rail carrier billing, including invoice generation, price management, and payee company workflows.</li>
+      <li>Led implementation of Pydantic-based request/response validation across the API, enabling a realtime OpenAPI specification and improving data integrity.</li>
+      <li>Led upgrade of the backend codebase to Python 3.14, including dependency migrations, CI pipeline updates, and Docker configuration changes.</li>
+      <li>Built analytics hub with CRUD configuration endpoints and led multi-tenant (Omni) dashboard integration with per-user configuration and theme support.</li>
+      <li>Drove adoption of Claude Code for AI-assisted development, building automated skills for code quality enforcement, SQL analysis, documentation generation, and developer onboarding.</li>
+      <li>Drove architectural decisions for backend systems. Implemented context-aware Sentry fingerprinting and Datadog tracing for production observability. Provisioned cloud infrastructure via Terraform.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-company">Angel Studios</span>
+      <span class="entry-date">April 2022 – April 2024</span>
+    </div>
+    <p class="entry-title">Senior Software Engineer, Platform Core</p>
+    <p class="entry-tech">Python · Django · Redis · RabbitMQ · AWS · Elixir · Phoenix · GraphQL · Postgres</p>
+    <p class="entry-summary">Drove code quality standards, development velocity, and deployment processes for the platform core team. Built internal tooling and services connecting business operations with technical systems.</p>
+    <ul>
+      <li>Led development of a business process manager providing centralized visibility into operational status and business intelligence.</li>
+      <li>Led prototype of a video encoding pipeline supporting dynamic per-title configuration including 5.1/Dolby Atmos audio, variable bitrate ladders, and multi-codec compression. Projected $600K+ annual CDN savings. Established integration testing and QA processes for media assets.</li>
+      <li>Built data aggregation service consolidating funding metrics across client projects.</li>
+      <li>Designed and developed greenfield payments system integrating multiple vendors for international sales, financial tracking, and cross-platform transaction processing.</li>
+      <li>Upgraded legacy Python codebase from deprecated version to current, including all dependencies and framework migrations.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-company">TenSpot</span>
+      <span class="entry-date">March 2020 – April 2022</span>
+    </div>
+    <p class="entry-title">Senior Software Engineer, Backend Team Lead</p>
+    <p class="entry-tech">Python · Django · Flask · OpenAPI · Postgres · Digital Ocean</p>
+    <p class="entry-summary">Scaled the engineering team through technical interviews, onboarding, and mentorship. Established code quality standards and led architecture decisions for backend systems.</p>
+    <ul>
+      <li>Led full backend rewrite from Flask to Django, including API schema design and database restructuring to support evolving business requirements.</li>
+      <li>Built testing framework and enforced coverage standards. Raised legacy system coverage from 3% to 70%; maintained 90%+ on new systems.</li>
+      <li>Modernized neglected codebase with full dependency updates and established ongoing maintenance schedule.</li>
+      <li>Integrated enterprise SSO providers including Azure Active Directory, Google, and Okta OAuth flows.</li>
+      <li>Developed third-party vendor integrations for core platform functionality.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-company">LenderClose</span>
+      <span class="entry-date">July 2019 – March 2020</span>
+    </div>
+    <p class="entry-title">Software Engineer</p>
+    <p class="entry-tech">Python · Flask/Quart · Postgres</p>
+    <p class="entry-summary">Built RESTful API integrations and microservices as part of a migration away from monolithic architecture.</p>
+    <ul>
+      <li>Developed third-party integrations enabling seamless data exchange between client systems.</li>
+      <li>Implemented identity microservice centralizing SSO, permissions, and cross-platform authentication. Added multi-factor authentication (MFA) support.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-company">IMT Computer Services</span>
+      <span class="entry-date">July 2014 – July 2019</span>
+    </div>
+    <p class="entry-title">Senior Programmer Analyst</p>
+    <p class="entry-tech">Python · Django · EmberJS · AWS · JSONApi · MySQL · Postgres</p>
+    <p class="entry-summary">Delivered tested, scalable systems for nearly 400 client companies in a TDD Agile environment.</p>
+    <ul>
+      <li>Mentored new hires and junior developers through pair programming.</li>
+      <li>Architected Django API on AWS Elastic Beanstalk with SQS workers for asynchronous document transfer via Dropbox. Processed 50,000+ documents daily for 200 clients, replacing legacy FTP batch jobs. Created reusable django-sqs library for queue management and integration testing.</li>
+      <li>Partnered with external vendor to build real-time SOAP data transfer service, eliminating error-prone dual manual entry.</li>
+      <li>Migrated applications from Python 2 to Python 3 and from on-premises servers to AWS.</li>
+      <li>Built Python communication layer enabling legacy COBOL systems to interface directly with JSON APIs, replacing flat-file intermediary workflows.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-company">EMC Insurance Company</span>
+      <span class="entry-date">June 2008 – July 2014</span>
+    </div>
+    <p class="entry-title">Programmer Analyst III</p>
+    <p class="entry-tech">Unisys BizServer · MAPPER</p>
+    <div class="subsection">
+      <h3>P&amp;T Claims and Finance</h3>
+      <p class="entry-summary">Lead developer for workers compensation regulatory reporting system.</p>
+      <ul>
+        <li>Built EDI system for claims reporting to state regulatory bodies.</li>
+        <li>Developed data sharing systems to meet multi-state compliance requirements.</li>
+        <li>Introduced version control practices to development team.</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <h3>Personal Lines Systems</h3>
+      <p class="entry-summary">Developed and maintained underwriting systems for personal lines policy quoting and management.</p>
+      <ul>
+        <li>Built real-time coverage verification system for police report requests.</li>
+        <li>Created paperless document system for policy generation and archiving.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
