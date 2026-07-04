@@ -473,3 +473,99 @@ a.site-title:focus, a.site-title:hover {
   .cv-date { color: #666; }
   .cv-tech { color: #666; }
 }
+
+/* RPG directory — grouped link cards */
+.rpg-intro { margin: 0 0 0.75em 0; }
+
+.rpg-group { margin-top: 2.25em; }
+
+.rpg-group-title {
+  margin: 0 0 0.1em 0;
+  font-size: 1.3em;
+  color: var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.2em;
+}
+
+.rpg-group-lead {
+  margin: 0 0 1em 0;
+  font-size: 0.95em;
+  color: var(--oc-gray-6);
+}
+
+.rpg-card {
+  margin: 0.85em 0;
+  padding: 1em 1.25em;
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0.35em;
+  background-color: var(--color-background);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+.rpg-card:hover,
+.rpg-card:focus-within {
+  border-color: var(--color-accent);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+.rpg-card-kicker {
+  margin: 0;
+  font-family: var(--type-caps);
+  font-weight: 500;
+  font-size: 0.72em;
+  letter-spacing: 0.04em;
+  text-transform: lowercase; /* Piazzolla SC renders lowercase as small caps */
+  color: var(--color-accent);
+}
+
+h3.rpg-card-title {
+  margin: 0.1em 0 0.35em 0;
+  font-family: var(--type-serif);
+  font-weight: 500;
+  font-size: 1.2em;
+  text-transform: none;
+  color: var(--color-heading);
+}
+
+.rpg-card-desc { margin: 0 0 0.85em 0; }
+
+.rpg-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+a.rpg-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.4em 0.85em;
+  border: 1px solid var(--color-accent);
+  border-radius: 0.35em;
+  color: var(--color-accent);
+  font-size: 0.9em;
+  font-weight: 500;
+  line-height: 1.15;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+a.rpg-link::after {
+  content: "\2192"; /* → */
+  font-size: 1.05em;
+  line-height: 1;
+}
+a.rpg-link:hover,
+a.rpg-link:focus {
+  background-color: var(--color-accent);
+  color: var(--color-background);
+  border: 1px solid var(--color-accent); /* override global dotted a:hover */
+}
+
+.rpg-back { margin-top: 2.25em; }
+
+@media (prefers-reduced-motion: reduce) {
+  .rpg-card { transition: none; }
+  .rpg-card:hover,
+  .rpg-card:focus-within { transform: none; }
+  a.rpg-link { transition: none; }
+}
