@@ -146,11 +146,10 @@
   <div class="header">
     <div>
       <div class="header-name">Caleb Salt</div>
-      <div class="header-subtitle">Backend Software Engineer</div>
+      <div class="header-subtitle">Backend Team Lead &amp; Engineering Manager</div>
     </div>
     <div class="header-contact">
       Chattanooga, TN<br>
-      +1 515 508 1334<br>
       <a href="mailto:dev@voidnologo.com">dev@voidnologo.com</a><br>
       <a href="https://voidnologo.com">voidnologo.com</a>
     </div>
@@ -163,16 +162,18 @@
       <span class="entry-company">Telegraph</span>
       <span class="entry-date">May 2024 – Present</span>
     </div>
-    <p class="entry-title">Senior Software Engineer, Backend</p>
-    <p class="entry-tech">Python · Falcon · SQLAlchemy · Pydantic · Celery · Redis · PostgreSQL · AWS · Terraform · Sentry · Datadog</p>
-    <p class="entry-summary">Drove backend architecture decisions, code quality standards, and feature delivery for a rail logistics visibility platform. Led major initiatives spanning billing, analytics, and infrastructure modernization.</p>
+    <p class="entry-title">Backend Team Lead / Engineering Manager</p>
+    <p class="entry-tech">Python · FastAPI · SQLAlchemy · Pydantic · Celery · Redis · PostgreSQL · AWS · Terraform · Datadog · OpenTelemetry</p>
+    <p class="entry-summary">Lead the backend engineering team for a rail logistics visibility platform, owning system architecture and technical standards across the API, data layer, and cloud infrastructure.</p>
     <ul>
-      <li>Led design and development of an external invoicing platform (Telecoin) integrating EDI 210/997 standards for automated rail carrier billing, including invoice generation, price management, and payee company workflows.</li>
-      <li>Led implementation of Pydantic-based request/response validation across the API, enabling a realtime OpenAPI specification and improving data integrity.</li>
-      <li>Led upgrade of the backend codebase to Python 3.14, including dependency migrations, CI pipeline updates, and Docker configuration changes.</li>
-      <li>Built analytics hub with CRUD configuration endpoints and led multi-tenant (Omni) dashboard integration with per-user configuration and theme support.</li>
-      <li>Drove adoption of Claude Code for AI-assisted development, building automated skills for code quality enforcement, SQL analysis, documentation generation, and developer onboarding.</li>
-      <li>Drove architectural decisions for backend systems. Implemented context-aware Sentry fingerprinting and Datadog tracing for production observability. Provisioned cloud infrastructure via Terraform.</li>
+      <li>Lead the backend team through multi-quarter platform initiatives: set technical direction, run architecture review and design documentation, and coordinate delivery with product and frontend from design through production cutover.</li>
+      <li>Led the migration of the entire production API from Falcon to FastAPI across two production deployments, run as a phased strangler migration with in-process dual-run parity testing, byte-for-byte response comparison, and an authorization-matrix gate. Cut over 100% of traffic in a single 86-minute window with no rollback and no customer-visible errors.</li>
+      <li>Architected the rewrite of the core data layer from waybill-centric to equipment-centric, replacing shipment-scoped visibility with a deterministic equipment state engine and a shared query layer serving both the dashboard and report builder. Unified CLM and telematics event streams behind one endpoint and closed a persistent event-association gap that had left a share of inbound events invisible to customers.</li>
+      <li>Designed the Views framework — a declarative data-source registry, query compiler, keyset paging, and per-field permissions governed by a written contract — so new domains join by declaring their fields and binding a query. Additional data domains were onboarded with no new tables, routes, request/response models, or compiler changes.</li>
+      <li>Unified five divergent per-feature note implementations onto a shared notes and attachment library, collapsing three separate status encodings and naive timestamps into one enum and timezone-aware UTC enforced by a shared contract test suite. Validated the production table migration against a copy of production before rollout.</li>
+      <li>Led design and delivery of an external invoicing platform integrating EDI 210/997 for automated rail carrier billing, including price management, payee workflows, and transmission-gap alarming with operator runbooks.</li>
+      <li>Own platform infrastructure and production readiness: Terraform-managed staging and production, OIDC CI/CD, ECS deployment circuit breakers, SOC 2 hardening, RS256/JWKS authentication, and per-route latency and error metrics via Datadog and OpenTelemetry.</li>
+      <li>Set codebase standards — Pydantic request/response validation backing a live OpenAPI specification, Python 3.14 upgrade, test-suite parallelization and CI sharding — and introduced agent-assisted development workflows, including the written planning and session-log system used to run the FastAPI migration.</li>
     </ul>
   </div>
 
